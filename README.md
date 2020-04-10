@@ -13,4 +13,4 @@ Running against DataStax Enterprise older versions of Graph
 cd java-driver-4x; mvn clean compile exec:java -Dexec.mainClass=ExampleOld
 ```
 
-* Note the advanced.graph.sub-protocol = graphson-1.0 in [application.conf](java-driver-4x/src/main/resources/application.conf) *
+*Note the `advanced.graph.sub-protocol = graphson-1.0` in [application.conf](java-driver-4x/src/main/resources/application.conf)*
